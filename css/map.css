@@ -1,0 +1,41 @@
+/* tutorial stylesheet */
+
+body {
+    background-color: #9BD5FC;
+}
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Iceland', cursive;
+}
+
+#page4 .ui-content {
+    padding: 0;
+}
+
+#map {
+    height: 600px;
+    width: 400px;
+}
+
+/*html, body, #map {
+    height: 100%;
+}*/
+
+#page1 {
+    background-image: url(../images/landing.jpg);
+}
+
+#landingButtons {
+    position: fixed;
+    bottom: 0;
+    width: 95%;
+}
+
+.ui-btn-text, .ui-content, .ui-slider-label {
+    font-family: 'Iceland', cursive;
+    font-weight: 400;
+}
